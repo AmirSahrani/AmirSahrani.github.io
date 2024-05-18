@@ -9,43 +9,56 @@
 </head>
 
 <body class="min-h-screen bg-slate-950 font-mono">
-  <div class="sticky top-0 grid grid-cols-10 gap-4 bg-slate-950">
-    <div>
-      <button type="button" onclick="window.location.href='https://github.com/AmirSahrani/';">
-        <h1 class="text-3xl  flex text-left p-5 text-white">
-          ~cd
-        </h1>
-      </button>
+<nav class="sticky top-0 bg-slate-950">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="absolute inset-y-0 left-0 flex items-center">
+          <button type="button" onclick="window.location.href='https://github.com/AmirSahrani/';">
+            <h1 class="text-3xl text-white py-2">~cd</h1>
+          </button>
+        </div>
+        <div class="flex-1 flex items-center justify-end sm:items-stretch">
+          <div class="hidden sm:block sm:ml-8 ml-auto">
+            <div class="flex space-x-4">
+              <button type="button" onclick="window.location.href='index.html';">
+                <h1 class="text-2xl text-white px-3 py-2">start</h1>
+              </button>
+              <button type="button" onclick="window.location.href='blog.html';">
+                <h1 class="text-2xl text-white  px-3 py-2">blog</h1>
+              </button>
+              <button type="button" onclick="window.location.href='projects.html';">
+                <h1 class="text-2xl text-white  px-3 py-2">projects</h1>
+              </button>
+              <button type="button" onclick="window.location.href='pictures.html';">
+                <h1 class="text-2xl text-white  px-3 py-2">pictures</h1>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-start-7">
-      <button type="button" onclick="window.location.href='index.html';">
-        <h1 class="text-2xl  text-left p-5 text-white">
-         start 
-        </h1>
-      </button>
-    </div>
-    <div class="col-start-8">
-      <button type="button" onclick="window.location.href='blog.html';">
-        <h1 class="text-2xl  text-left p-5 text-white">
-          blog
-        </h1>
-      </button>
-    </div>
-    <div class="col-start-9">
-      <button type="button" onclick="window.location.href='projects.html';">
-        <h1 class="text-2xl  text-left  p-5 text-white">
-          projects
-        </h1>
-      </button>
-    </div>
-    <div class="col-start-10">
-      <button type="button" onclick="window.location.href='pictures.html';">
-        <h1 class="text-2xl text-left flex p-5 text-white">pictures</h1>
-    </button>
-    </div>
-  </div>
+  </nav>
   <div
-    class="flex items-start justify-center h-screen mx-auto w-4/5 grids-cols-2 border-2 border-black shadow-md bg-white m-10 p-10 rounded-md">
+    class="items-start justify-center h-screen mx-auto w-4/5  border-2 border-black shadow-md bg-white m-10 p-10 rounded-md">
+
+        <div class = "text-center items-start p-5">
+                <h2 class="text-xl text-center color-slate-950 p-5"> 
+                    <a href="test"><u>Bachelor Thesis</u></a></h2>
+
+                <p class="text-sm text-left"> During my thesis we collected around 300.000 sample cointosses which we used to verify a theoretical results form dr. Diaconis. We found positive results, suggesting a bias, where the coin is more likely to land on the same face it originally rested on.</p>
+                <br>
+        <div class = "text-center items-start">
+                <h2 class="text-xl text-center color-slate-950 p-5"> 
+                        <a href="test"><u>Mechanistic Interpretability of Transformers</u></a></h2>
+
+                <p class="text-sm text-left">  
+I investigate a transformer trained on the task of sorting. With the use of the local learning coefficient, the complexity of the model was estimated. The model was found to perform most computation in the first layer, after which the subsequence layers 'refined the input'  </p>
+                <br>
+                
+            
+        </div>
+
+
   </div>
 </body>
 
